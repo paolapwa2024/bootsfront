@@ -8,6 +8,40 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" integrity="sha256-pdY4ejLKO67E0CM2tbPtq1DJ3VGDVVdqAR6j3ZwdiE4=" crossorigin="anonymous">
     <title>BootFront</title>
     <style>
+        /* Background */
+
+        body {
+            background-color: rgb(102, 104, 2);
+            background-image: url('img/background-1.png');
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        /* Links do footer */
+
+        body>footer a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            transition: .2s;
+        }
+
+        body>footer a:hover {
+            color: orange;
+        }
+
+        /* Remover marcadores da lista de links do footer */
+
+        body>footer ul {
+            list-style: none;
+            padding-left: 1rem;
+        }
+
+        body>main {
+            background-color: rgba(255, 255, 255, .95);
+        }
+
         .template-aside {
             background-color: #e3e3e3;
         }
@@ -20,7 +54,7 @@
     </style>
 </head>
 
-<body class="bg-primary">
+<body class="vh-100 d-flex flex-column">
 
     <a id="top"></a>
 
@@ -65,13 +99,20 @@
         </nav>
     </header>
 
-    <main class="container pt-4 mt-5 bg-light d-flex flex-column flex-md-row">
+    <main class="container pt-4 mt-5 d-flex flex-column flex-md-row flex-grow-1">
 
         <section class="p-3 flex-grow-1">
             <h2>Título</h2>
-
-
-
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed omnis iste ipsum vel impedit magnam recusandae ut aperiam explicabo ex praesentium perferendis repudiandae cupiditate, voluptatibus saepe facilis facere nisi assumenda.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed omnis iste ipsum vel impedit magnam recusandae ut aperiam explicabo ex praesentium perferendis repudiandae cupiditate, voluptatibus saepe facilis facere nisi assumenda.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed omnis iste ipsum vel impedit magnam recusandae ut aperiam explicabo ex praesentium perferendis repudiandae cupiditate, voluptatibus saepe facilis facere nisi assumenda.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed omnis iste ipsum vel impedit magnam recusandae ut aperiam explicabo ex praesentium perferendis repudiandae cupiditate, voluptatibus saepe facilis facere nisi assumenda.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed omnis iste ipsum vel impedit magnam recusandae ut aperiam explicabo ex praesentium perferendis repudiandae cupiditate, voluptatibus saepe facilis facere nisi assumenda.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed omnis iste ipsum vel impedit magnam recusandae ut aperiam explicabo ex praesentium perferendis repudiandae cupiditate, voluptatibus saepe facilis facere nisi assumenda.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed omnis iste ipsum vel impedit magnam recusandae ut aperiam explicabo ex praesentium perferendis repudiandae cupiditate, voluptatibus saepe facilis facere nisi assumenda.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed omnis iste ipsum vel impedit magnam recusandae ut aperiam explicabo ex praesentium perferendis repudiandae cupiditate, voluptatibus saepe facilis facere nisi assumenda.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed omnis iste ipsum vel impedit magnam recusandae ut aperiam explicabo ex praesentium perferendis repudiandae cupiditate, voluptatibus saepe facilis facere nisi assumenda.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed omnis iste ipsum vel impedit magnam recusandae ut aperiam explicabo ex praesentium perferendis repudiandae cupiditate, voluptatibus saepe facilis facere nisi assumenda.</p>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed omnis iste ipsum vel impedit magnam recusandae ut aperiam explicabo ex praesentium perferendis repudiandae cupiditate, voluptatibus saepe facilis facere nisi assumenda.</p>
         </section>
 
@@ -166,9 +207,9 @@
         </div>
 
         <div class="container d-flex justify-content-between align-items-center border-top">
-            <a href="index.html"><i class="bi bi-house-door-fill fs-1"></i></a>
-            <div>&copy; 2026 Joca da Silva</div>
-            <a href="#top"><i class="bi bi-arrow-up-square-fill fs-1"></i></a>
+            <a href="index.html"><i class="bi bi-house-door-fill fs-2"></i></a>
+            <div>&copy; 2026 Paola Oliveira</div>
+            <a href="#top"><i class="bi bi-arrow-up-square-fill fs-2"></i></a>
         </div>
     </footer>
 
